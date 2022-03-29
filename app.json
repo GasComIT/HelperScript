@@ -1,12 +1,18 @@
 {
 "logo": "https://i.ibb.co/cbcchGd/userge.jpg",
-"name": "Userge AI",
-"description": "(𝐜) Userge AI, a telegram bot for bot private and group use",
+"name": "USERGE AI",
+"description": "(𝐜)Userge AI, a Telegram 𝐌𝐮𝐥𝐭𝐢𝐏𝐮𝐫𝐩𝐨𝐬𝐞-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐌𝐨𝐝𝐞𝐫𝐚𝐭𝐢𝐨𝐧,𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 20+ 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬!",
 "keywords": [
-"telegram-api",
-"telegram-bot",
-"bot-api",
-"userge",
+"python-api",
+"python3",
+"whatsapp",
+"js-whatsapp",
+"whatsapp-api",
+"whatsapp-web",
+"whatsapp",
+"whatsapp-chat",
+"whatsapp-group",
+"automation"
 ],
 "homepage": "https://github.com/GasComIT/Userge",
 "author": {
@@ -19,6 +25,7 @@
 "bugs": {
 "url": "https://github.com/GasComIT/Userge/issues"
 },
+"license": "Apache",
     "env": {
         "API_ID": {"description": "Get this value from https://my.telegram.org"},
         "API_HASH": {"description": "Get this value from https://my.telegram.org"},
@@ -26,23 +33,19 @@
         "LOG_CHANNEL_ID": {"description": "Telegram Log Channel ID"},
         "SESSION_STRING": {
             "description": "[USER MODE] - Get this using `bash genStr`",
-            "required": true
-},
+            "required": false},
         "BOT_TOKEN": {
             "description": "[BOT MODE] - Get this from https://t.me/botfather",
-            "required": false
-},
+            "required": false},
         "OWNER_ID": {
             "description": "[BOT MODE] - Your user_id",
             "required": false},
         "HEROKU_APP_NAME": {
             "description": "given app name to the heroku app",
-            "required": true
-},
+            "required": false},
         "HEROKU_API_KEY": {
             "description": "get a Heroku API key from http://dashboard.heroku.com/account",
-            "required": true
-}
+            "required": false}
     },
     "buildpacks": [
         {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
